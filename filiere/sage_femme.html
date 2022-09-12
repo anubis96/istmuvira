@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ISTM | UVIRA, Filière de Sage Femme</title>
+    <link rel="shortcut icon" href="../icone.png" type="image/x-icon">
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="stylesheet" href="css/sage.css">
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="/bootstrap/css/bootstrap.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.2/css/fontawesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="../"><img src="../logovrai.png"></a>
+            <div class="nav-links" id="navLinks">
+                <!-- <i class="fa-regular fa-xmark"></i> -->
+                <div class="fa" onclick="hideMenu()"><img src="../close.png"></div>
+                <ul>
+                    <li><a href="../index.html">ACCUEIL</a></li>
+                    <li><a href="../organisation.html">ORGANISATION</a></li>
+                    <li><a href="../courses.html">FILIERES</a></li>
+                    <li><a href="../blog.html">ADMISSION</a></li>
+                    <li><a href="../recherches.php">RECHERCHES</a></li>
+                    <li><a href="../contact.html">CONTACT</a></li>
+                    <li><a href="../about.html">A POPOS</a></li>
+                </ul>
+            </div>
+            <div class="fa" onclick="showMenu()"><img src="../menu.png"></div>
+            <!-- <i class="fa-regular fa-bars"></i> -->
+        </nav>
+        <h1>Filière de Sage Femme</h1>
+    </section>
+
+    <!------ Facultés -------->
+    <section class="course">
+        <h1>Filière de Sage Femme</h1>
+        <p>Une des anciennes filières de notre institution ...</p>
+        <div class="row">
+            <div class="course-col fill">
+                <h3>Description</h3>
+                Petite Description du filière ...
+                <br> Contactez pour <a href="../contact.html">en cliquant ici</a>
+            </div>
+    </section>
+    <section class="course">
+        <div class="course-col">
+            <h3>PALMARES DE L'ANNEE 2022</h3>
+        <table class="table table-light">
+            <thead>
+                <tr>
+                    <th scope="col">Nom de l'Etudiant</th>
+                    <th scope="col">Année de Défense</th>
+                    <th scope="col">Filière</th>
+                    <th scope="col">Section</th>
+                    <th scope="col">Points Obtenus</th>
+                    <th scope="col">Pourcentages</th>
+                    <th scope="col">Aperçu</th>
+                </tr>
+            </thead>
+            <tbody>
+                <td>La liste sera affiché ici</td>
+            </tbody>
+        </table>
+    </div>
+    </section>
+    <footer>
+        <div class="footer-content">
+            <h3>Notre adresse physique</h3>
+            <p>
+                Adresse: Avenue de la Mission N°29, Quartier Kakombe, Ville d'Uvira, Province du Sud-Kivu, RDC.
+            </p>
+            <p>Adresse Mail: istm-uvira@gmail.com</p>
+            <p>Téléphone: +243 999 644 524</p>
+            <ul class="socials">
+                <li><a href="facebook.com/istm-uvira"><img src="/facebook.png"></a></li>
+                <li><a href="facebook.com/istm-uvira"><img src="/twitter.png"></a></li>
+                <li><a href="facebook.com/istm-uvira"><img src="/twitter.png"></a></li>
+            </ul>
+        </div>
+        <footer class="footer-bottom">
+            <p>copyright &copy;2022, Fait par Olivier Rukabo : <span>+243 999 644 524</span> </a></p>
+        </footer>
+    </footer>
+
+
+    <!-- Javascript for Toggle Menu -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,45 @@
+.sub-header{
+    height: 50vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)),url(/filiere/images/sage_f.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+  }
+  .sub-spublique{
+    height: 50vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)),url(/filiere/images/sante_p.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+  }
+.sub-sinfirmiere{
+    height: 50vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)),url(/filiere/images/sciences_inf.webp);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+}
+.sub-labo{
+    height: 50vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)),url(/filiere/images/labo.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: #fff;    
+}
+.sub-pharma{
+    height: 50vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)),url(/filiere/images/pharmacy.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: #fff;    
+}
