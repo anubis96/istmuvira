@@ -1,0 +1,51 @@
+
+/* tab CSS */
+.tab{
+    overflow: hidden;
+    background-color: #009688;
+}
+
+/* Style des boutons de tab */
+.tab button{
+    background-color: inherit;
+    letter-spacing: 2px;
+    float: left;
+    border: none;
+    outline: 0;
+    color: #fff;
+    cursor: pointer;
+    padding: 14px 50px;
+    transition: 0.5s;
+    font-size: 17px;
+}
+
+.tab button:hover{
+    background-color: #0fb3a2;
+}
+.tab button.active{
+    background-color: #316d67;
+}
+.tabcontent{
+    color: rgb(147, 154, 6);
+    display: none;
+    flex-direction: column;
+    padding: 6px 50px;
+    animation: animation 0.5s ease-out;
+}
+/* animation 
+@-webkit-keyframes animation{
+    from{opacity: 0;}
+    to {opacity: 1;}
+}
+*/
+@keyframes animation{
+    from{opacity: 0;}
+    to {opacity: 1;}
+}
+
+h3{
+    font-size: 50px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+

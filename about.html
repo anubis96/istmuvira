@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ISTM | UVIRA, A propos</title>
+    <link rel="shortcut icon" href="/icone.png" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.2/css/fontawesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="logovrai.png"></a>
+            <div class="nav-links" id="navLinks">
+                <!-- <i class="fa-regular fa-xmark"></i> -->
+                <div class="fa" onclick="hideMenu()"><img src="close.png"></div>
+                <ul>
+                    <li><a href="index.html">ACCUEIL</a></li>
+                    <li><a href="organisation.html">ORGANISATION</a></li>
+                    <li><a href="courses.html">FILIERES</a></li>
+                    <li><a href="blog.html">ADMISSION</a></li>
+                    <li><a href="recherches.php">RECHERCHES</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                    <li><a href="about.html">A POPOS</a></li>
+                </ul>
+            </div>
+            <div class="fa" onclick="showMenu()"><img src="menu.png"></div>
+            <!-- <i class="fa-regular fa-bars"></i> -->
+        </nav>
+        <h1>A Propos de Nous</h1>
+    </section>
+
+    <!------ about us content -------->
+    <section class="about-us">
+        <div class="row">
+            <div class="about-col">
+                <h1>Mission</h1>
+                <p>L’ISTM a pour mission de former les
+                    infirmiers spécialistes en sciences Infirmière
+                    et en santé publique qui maitrisent et
+                    donnent les soins des qualités d’une manière
+                    générale dans les milieux sanitaires. Il la
+                    recherche également la promotion de la santé : <b><i>prévention,
+                    rétablissement et protection.</i></b></p>
+                    <a href="" class="hero-btn red-btn">EXPLOREZ MAINTENANT</a>
+            </div>
+            <div class="about-col">
+                <img src="mission.jpg">
+            </div>
+        </div>
+        <div class="row">
+            <div class="about-col">
+                <img src="vision.jpg">
+            </div>
+            <div class="about-col">
+                <h1>Vision</h1>
+                <p>Dans la politique d’émergence et de progrès,
+                    l’ISTM-Uvira s’est doté d’un site universitaire
+                    de 8 hectares à Rutemba. C’est un cadre
+                    merveilleux et idéal pour un monde
+                    universitaire sur lequel reposent ses projets
+                    de construction de :</p>
+                    <ul>
+                        <li>Bâtiment Administratif ;</li>
+                        <li>Des auditoires pour les cours et
+                            amphithéâtres polyvalents pour
+                            diverses activités scientifiques et
+                            publiques ;</li>
+                        <li>Des laboratoires de Recherches et
+                            d’analyses médicales ;</li>
+                        <li>Une bibliothèque ;</li>
+                        <li>Des logements pour étudiants corps
+                            enseignant et administratif ;</li>
+                        <li>Un complexe sportif (terrain de
+                            football, basketball, tennis, bassin de
+                            natation etc.).</li>
+                    </ul>
+                    <p>Cette concession a son titre foncier et mise en
+                        valeur de par un boisement avec 22156
+                        arbres de diverses genres et espèces
+                        Actuellement 2 grands bâtiments de capacité
+                        de 8 auditoires spacieux sont en pleine
+                        construction.</p>
+                    <a href="" class="hero-btn red-btn">EXPLOREZ MAINTENANT</a>
+            </div>
+        </div>
+
+    </section>
+
+
+
+    <!----- Footer ------>
+    
+    <footer>
+        <div class="footer-content">
+            <h3>Notre adresse physique</h3>
+            <p>
+                Adresse: Avenue de la Mission N°29, Quartier Kakombe, Ville d'Uvira, Province du Sud-Kivu, RDC.
+            </p>
+            <p>Adresse Mail: istm-uvira@gmail.com</p>
+            <p>Téléphone: +243 999 644 524</p>
+            <ul class="socials">
+                <li><a href="facebook.com/istm-uvira"><img src="facebook.png"></a></li>
+                <li><a href="facebook.com/istm-uvira"><img src="twitter.png"></a></li>
+                <li><a href="facebook.com/istm-uvira"><img src="twitter.png"></a></li>
+            </ul>
+        </div>
+        <footer class="footer-bottom">
+            <p>copyright &copy;2022, Fait par Olivier Rukabo : <span>+243 999 644 524</span> </a></p>
+        </footer>
+    </footer>
+
+
+
+    <!-- Javascript for Toggle Menu -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+    
+</body>
+</html>
